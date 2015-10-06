@@ -1,48 +1,30 @@
-
-html {
-    font-size: 100%;
-    overflow-y: scroll;
-    font-family: "Raleway",sans-serif;
+html{
+font-size:100%;
 }
-body {
-    margin: 0px;
-    font-size: 13px;
-    line-height: 1.231;
-    font-family: "Raleway",sans-serif;
-    color: #222;
+body{
+font-size:15px;
+margin:0px;
+line-height:7;
+color:#222;
 }
-#context {
-    max-width: 900px;
-    margin: 0px auto 50px;
-    padding-right: 20px;
-    padding-left: 20px;
+#context{
+max-width: 900px;
+margin:0px auto 50px;
+padding-right: 20px;
+padding-left: 20px;
 }
-body {
-    font-size: 13px;
-    line-height: 1.231;
-    font-family: "Raleway",sans-serif;
-    color: #222;
-}
-section {
-    width: 100%;
-    float: left;
-    margin-top: 25px;
-    padding: 0px;
-}
-article, aside, section {
-    display: block;
-}
-
 #contact {
     color: #000;
     font-weight: 500;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-*::-moz-selection {
-    background: #E6AF61 none repeat scroll 0% 0%;
-    color: #FFF;
-    text-shadow: none;
+section {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+    padding: 0px;
+    display:block;
 }
 aside {
     float: left;
@@ -53,28 +35,23 @@ aside {
     margin: 0px;
     padding: 0px;
     line-height: 15px;
-}
-#contact ul {
-    margin: 0px;
-    padding: 0px;
-}
-ul {
-    margin: 1em 0px;
-    padding: 0px 0px 0px 40px;
-    list-style-type: none;
-}
+    display:block;
+} 
 article {
     float: right;
     width: 85%;
     margin-bottom: 10px;
+    display:block;
 }
 #contact ul li {
+    float: left;
+    margin-right: 12%;
+    font-size: 1em;
+    padding: 0px;
+    text-align: center;
     list-style-type: none;
     display: block;
-    margin: 0px;
-    padding: 0px 0px 10px;
-    font-size: 1.2em;
-    text-align: center;
+    margin: 0px
 }
 #contact a {
     color: #000;
@@ -99,3 +76,4 @@ a {
     font-size: 0.8em;
     padding-top: 20px;
 }
+
