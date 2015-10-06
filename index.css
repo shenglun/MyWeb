@@ -1,0 +1,64 @@
+html {
+    font-size: 100%;
+    overflow-y: scroll;
+    font-family: "Raleway",sans-serif;
+}
+body {
+    margin: 0px;
+    font-size: 13px;
+    line-height: 1.231;
+    font-family: "Raleway",sans-serif;
+    color: #222;
+}
+#context {
+    max-width: 900px;
+    margin: 0px auto 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+body {
+    font-size: 13px;
+    line-height: 1.231;
+    font-family: "Raleway",sans-serif;
+    color: #222;
+}
+section {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+    padding: 0px;
+}
+article, aside, section {
+    display: block;
+}
+
+#contact {
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+*::-moz-selection {
+    background: #E6AF61 none repeat scroll 0% 0%;
+    color: #FFF;
+    text-shadow: none;
+}
+aside {
+    float: left;
+    width: 15%;
+    color: #888;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    line-height: 15px;
+}
+#contact ul {
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    margin: 1em 0px;
+    padding: 0px 0px 0px 40px;
+    list-style-type: none;
+}
