@@ -1,3 +1,4 @@
+
 html {
     font-size: 100%;
     overflow-y: scroll;
@@ -61,4 +62,40 @@ ul {
     margin: 1em 0px;
     padding: 0px 0px 0px 40px;
     list-style-type: none;
+}
+article {
+    float: right;
+    width: 85%;
+    margin-bottom: 10px;
+}
+#contact ul li {
+    list-style-type: none;
+    display: block;
+    margin: 0px;
+    padding: 0px 0px 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+#contact a {
+    color: #000;
+    font-weight: 500;
+    padding: 5px;
+}
+a {
+    color: #E49E17;
+    text-decoration: none;
+    line-height: 0.7em;
+    transition: color 0.2s linear 0s;
+    font-size: 1em;
+    font-weight: 500;
+}
+.date {
+    float: right;
+    padding: 0px;
+}
+.date {
+    color: #888;
+    margin-right: 20px;
+    font-size: 0.8em;
+    padding-top: 20px;
 }
