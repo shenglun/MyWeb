@@ -1,5 +1,5 @@
-jQuery('#photo').mouseover(function(){
-jQuery('#photo').animate({
-src="head"},1000,function(){}
-);
-});
+$('#photo').hover(function(){
+  $('#mug-shot').animate({'src':'head.jpg'
+  },1000,function(){}
+  );
+}
