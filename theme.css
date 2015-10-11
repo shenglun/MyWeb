@@ -3,7 +3,8 @@ height:30%;
 width:30%;
 }
 hr{
-height:10px;
+height:2px ;
+background-color:white;
 }
 body {
     background-image: url("forest.jpg");
@@ -15,5 +16,9 @@ margin-left:60%;
 margin-right:100px;
 margin-left:60%;
 }
-
-
+#name{
+color:white;
+}
+#self-intro{
+color:white;
+}
