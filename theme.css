@@ -37,6 +37,8 @@ h1{
 margin-top:0px;
 margin-bottom:0px;
 }
-#contact,#contact>div{
-vertical-align:top;
+#contact>div{
+display:inline-block;
+color:white;
+font-size:25px;
 }
