@@ -9,9 +9,12 @@ width:20%;
 body {
     background-image: url("forest.jpg");
 }
+#photo{
+margin-left:60%;
+}
 #information{
 margin-right:100px;
-margin-left:150px;
+margin-left:60%;
 }
 
 
