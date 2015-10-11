@@ -9,6 +9,23 @@ width:20%;
 body {
     background-image: url("forest.jpg");
 }
-
+#name{
+text-align:right;
+}
+#self-intro{
+text-align:right;
+}
+#education{
+text-align:right;
+}
+#experience{
+text-align:right;
+}
+#skill{
+text-align:right;
+}
+#project{
+text-align:right;
+}
 
 
