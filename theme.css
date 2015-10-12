@@ -13,8 +13,8 @@ body {
 margin-left:60%;
 }
 #information{
-margin-right:100px;
-margin-left:60%;
+width: 50%;
+margin: 0 auto !important;
 }
 #name{
 color:white;
@@ -22,7 +22,9 @@ color:white;
 #self-intro{
 color:white;
 }
-
+.inner-info{
+    width:50%;
+}
 .inner-info,.material-icons{
 vertical-align:top;
 }
