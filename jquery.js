@@ -1,5 +1,5 @@
-$().ready(function(){ 
-  $("#photo").mouseover(function(){
-  $("#mug-shot").css({"src","head.jpg"});
-});
+$(document).ready(function(){
+    $("#mug-shot").click(function(){
+        $(this).css("src", "head.jpg");
+    });
 });
