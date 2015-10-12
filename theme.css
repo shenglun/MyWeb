@@ -25,7 +25,7 @@ color:white;
 }
 .inner-info{
     width:50%;
-    margin-right:0;
+    padding-right:0px;
 }
 .inner-info,.material-icons{
 vertical-align:top;
