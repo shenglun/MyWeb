@@ -6,6 +6,6 @@ $(document).ready(function(){
     $("#name").css("background-color","red");
   });
   $("#name").mouseout(function(){
-    $("#name").css("background-color","grenen");
+    $("#name").css("background-color","green");
   });
 });
